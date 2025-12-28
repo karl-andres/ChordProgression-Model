@@ -1,2 +1,4 @@
 # Force all text files to use LF line endings
 * text=auto eol=lf
+*.csv filter=lfs diff=lfs merge=lfs -text
+data/*.csv filter=lfs diff=lfs merge=lfs -text
